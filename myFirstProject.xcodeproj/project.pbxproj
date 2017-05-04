@@ -12,6 +12,7 @@
 		2E41CE131EB856EF0053ED91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E41CE111EB856EF0053ED91 /* Main.storyboard */; };
 		2E41CE151EB856EF0053ED91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E41CE141EB856EF0053ED91 /* Assets.xcassets */; };
 		2E41CE181EB856EF0053ED91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E41CE161EB856EF0053ED91 /* LaunchScreen.storyboard */; };
+		2E41CE201EBAEE160053ED91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E41CE1F1EBAEE160053ED91 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2E41CE141EB856EF0053ED91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E41CE171EB856EF0053ED91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E41CE191EB856EF0053ED91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E41CE1F1EBAEE160053ED91 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "../../xcode projects/Main.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				2E41CE0D1EB856EF0053ED91 /* AppDelegate.swift */,
 				2E41CE0F1EB856EF0053ED91 /* ViewController.swift */,
 				2E41CE111EB856EF0053ED91 /* Main.storyboard */,
+				2E41CE1F1EBAEE160053ED91 /* Main.storyboard */,
 				2E41CE141EB856EF0053ED91 /* Assets.xcassets */,
 				2E41CE161EB856EF0053ED91 /* LaunchScreen.storyboard */,
 				2E41CE191EB856EF0053ED91 /* Info.plist */,
@@ -126,6 +129,7 @@
 				2E41CE181EB856EF0053ED91 /* LaunchScreen.storyboard in Resources */,
 				2E41CE151EB856EF0053ED91 /* Assets.xcassets in Resources */,
 				2E41CE131EB856EF0053ED91 /* Main.storyboard in Resources */,
+				2E41CE201EBAEE160053ED91 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +305,7 @@
 				2E41CE1E1EB856EF0053ED91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
