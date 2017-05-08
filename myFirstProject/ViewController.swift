@@ -12,26 +12,19 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var theLabel: UILabel!
     
-    var tapCount = 0
+    @IBOutlet weak var text1: UITextField!
+    
+    @IBOutlet weak var text2: UITextField!
     
     @IBAction func buttontapped(_ sender: Any) {
         
-        theLabel.text = "Hello my darling!"
-        tapCount += 1
-        if tapCount >= 20 {
-        print("You've tapped it over 20 times!")
-        }
-    }
+       theLabel.text = "Sum is \(Double(text1.text!)! + Double(text2.text!)!)"
+          }
     
-    @IBAction func makItCool(_ sender: Any) {
-        theLabel.text = "Buttons are cool!"
-    }
-    override func viewDidLoad() {
+       override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        theLabel.text = "Hello There!"
-    }
+            }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
